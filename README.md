@@ -33,6 +33,7 @@ PUT /destinos/{id} - Atualizar um destino
 
 DELETE /destinos/{id} - Deletar um destino
 
+
 ✈️ Pacotes
 GET /pacotes - Listar todos os pacotes
 
@@ -43,6 +44,7 @@ GET /pacotes/{id} - Buscar pacote por ID
 PUT /pacotes/{id} - Atualizar um pacote
 
 DELETE /pacotes/{id} - Deletar um pacote
+
 
 📑 Reservas
 GET /reservas - Listar todas as reservas
