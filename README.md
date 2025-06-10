@@ -47,13 +47,13 @@ DELETE /pacotes/{id} - Deletar um pacote
 
 
 📑 Reservas
-GET /reservas - Listar todas as reservas
+- GET /reservas - Listar todas as reservas
 
-POST /reservas - Criar uma nova reserva
+- POST /reservas - Criar uma nova reserva
 
-GET /reservas/{id} - Buscar reserva por ID
+- GET /reservas/{id} - Buscar reserva por ID
 
-DELETE /reservas/{id} - Cancelar uma reserva
+- DELETE /reservas/{id} - Cancelar uma reserva
 
 Contribuição
 Sinta-se à vontade para abrir Issues ou Pull Requests. Toda contribuição é bem-vinda!
