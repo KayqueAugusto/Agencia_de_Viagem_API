@@ -56,5 +56,5 @@ agencia-viagem-api/
 - DELETE /reservas/{id} - Cancelar uma reserva
 
 Contribuição
-Sinta-se à vontade para abrir Issues ou Pull Requests. Toda contribuição é bem-vinda!
+- Sinta-se à vontade para abrir Issues ou Pull Requests. Toda contribuição é bem-vinda!
 
