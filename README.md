@@ -23,27 +23,27 @@ agencia-viagem-api/
 
 📌Endpoints
 🧭 Destinos
-GET /destinos - Listar todos os destinos
+- GET /destinos - Listar todos os destinos
 
-POST /destinos - Cadastrar um novo destino
+- POST /destinos - Cadastrar um novo destino
 
-GET /destinos/{id} - Buscar destino por ID
+- GET /destinos/{id} - Buscar destino por ID
 
-PUT /destinos/{id} - Atualizar um destino
+- PUT /destinos/{id} - Atualizar um destino
 
-DELETE /destinos/{id} - Deletar um destino
+- DELETE /destinos/{id} - Deletar um destino
 
 
 ✈️ Pacotes
-GET /pacotes - Listar todos os pacotes
+- GET /pacotes - Listar todos os pacotes
 
-POST /pacotes - Cadastrar um novo pacote
+- POST /pacotes - Cadastrar um novo pacote
 
-GET /pacotes/{id} - Buscar pacote por ID
+- GET /pacotes/{id} - Buscar pacote por ID
 
-PUT /pacotes/{id} - Atualizar um pacote
+- PUT /pacotes/{id} - Atualizar um pacote
 
-DELETE /pacotes/{id} - Deletar um pacote
+- DELETE /pacotes/{id} - Deletar um pacote
 
 
 📑 Reservas
