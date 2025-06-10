@@ -1,0 +1,141 @@
+{
+  "info": {
+    "name": "Ag\u00eancia Viagem API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Cadastrar Destino",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"nome\": \"Praia do Forte\",\n  \"localizacao\": \"Bahia\",\n  \"descricao\": \"Praia paradis\\u00edaca com \\u00e1guas quentes.\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8080/destinos",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "destinos"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Listar Destinos",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:8080/destinos",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "destinos"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Pesquisar Destino",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:8080/destinos/pesquisar?termo=bahia",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "destinos",
+            "pesquisar"
+          ],
+          "query": [
+            {
+              "key": "termo",
+              "value": "bahia"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Visualizar Destino",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:8080/destinos/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "destinos",
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Avaliar Destino",
+      "request": {
+        "method": "PATCH",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"nota\": 9\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8080/destinos/1/avaliar",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "destinos",
+            "1",
+            "avaliar"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Excluir Destino",
+      "request": {
+        "method": "DELETE",
+        "url": {
+          "raw": "http://localhost:8080/destinos/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "destinos",
+            "1"
+          ]
+        }
+      }
+    }
+  ]
+}
