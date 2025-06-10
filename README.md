@@ -8,7 +8,7 @@ Este é um projeto de uma API RESTful simples para gerenciar uma agência de via
 - **Spring Boot**
 - **Maven**
 - **Lombok**
-- **Postman (para testes de API - opcional)**
+- **Postman (para testes de API - opcional)** AgenciaViagemAPI.postman_collection.json
 
 ## 📁 Estrutura do Projeto
 
