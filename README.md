@@ -13,16 +13,16 @@ Este é um projeto de uma API RESTful simples para gerenciar uma agência de via
 ## 📁 Estrutura do Projeto
 
 agencia-viagem-api/
-├── controller/ # Controladores (camada de entrada da API)
-├── service/ # Regras de negócio
-├── model/ # Modelos de dados
-├── repository/ # Repositórios (simulados em memória)
-├── dto/ # Objetos de transferência de dados (opcional)
-├── Application.java # Classe principal
+<br>├── controller/ # Controladores (camada de entrada da API)
+<br>├── service/ # Regras de negócio
+<br>├── model/ # Modelos de dados
+<br>├── repository/ # Repositórios (simulados em memória)
+<br>├── dto/ # Objetos de transferência de dados (opcional)
+<br>├── Application.java # Classe principal
 
 
 📌Endpoints
-🧭 Destinos
+<br>🧭 Destinos
 - GET /destinos - Listar todos os destinos
 
 - POST /destinos - Cadastrar um novo destino
